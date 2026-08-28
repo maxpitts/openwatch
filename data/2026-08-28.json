@@ -1,5 +1,5 @@
 {
- "captured_at": "2026-08-28T04:40:15+00:00",
+ "captured_at": "2026-08-28T04:41:56+00:00",
  "models": [
   {
    "artifacts_cuda_native": [],
@@ -13030,7 +13030,7 @@
    "downloads": 701460,
    "gated": false,
    "id": "ReliquaryForge/qwen3-4b-base-dapo-v4",
-   "last_modified": "2026-08-28T04:26:23.000Z",
+   "last_modified": "2026-08-28T04:41:45.000Z",
    "library_name": null,
    "license": null,
    "license_permissive": null,
@@ -13038,7 +13038,7 @@
    "n_files": 9,
    "pipeline_tag": null,
    "private": false,
-   "sha": "572663b1183cd104a9ea1c52d634faab3d1addd6",
+   "sha": "a3677fd5bf31422f28a6ad1bf8208f63f6c8821e",
    "weights": [
     "safetensors"
    ]
@@ -20447,7 +20447,7 @@
    "library_name": "transformers",
    "license": "other",
    "license_permissive": false,
-   "likes": 314,
+   "likes": 315,
    "n_files": 243,
    "pipeline_tag": "text-generation",
    "private": false,
