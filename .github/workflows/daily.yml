@@ -1,0 +1,88 @@
+name: Daily snapshot
+
+# Takes one metadata reading of the Hub, derives the metrics series, diffs against the previous
+# snapshot, and commits all three. The commit history IS the tamper-evident record — that's the
+# whole accountability mechanism, so this must run from the repo, not from anyone's laptop.
+#
+# No secrets needed: GITHUB_TOKEN is issued automatically.
+# REQUIRED ONE-TIME: Settings -> Actions -> General -> Workflow permissions -> "Read and write".
+# Without it the push fails and you get a green-looking run that committed nothing.
+
+on:
+  schedule:
+    - cron: "17 6 * * *"      # 06:17 UTC daily — off the hour, where cron contention is worst
+  workflow_dispatch:
+    inputs:
+      top:
+        description: "How many models to capture (ranked by downloads)"
+        required: false
+        default: "5000"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: openwatch-daily
+  cancel-in-progress: false     # never let a new run kill a capture mid-write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0        # need history to find the previous snapshot
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Capture
+        id: cap
+        run: |
+          set -euo pipefail          # fail closed: a bad capture must never reach the commit step
+          TOP="${{ github.event.inputs.top || '5000' }}"
+          D=$(date -u +%F)
+          mkdir -p data reports
+          python3 snapshot.py --top "$TOP" --out "data/$D.json"
+          echo "date=$D" >> "$GITHUB_OUTPUT"
+          PREV=$(ls -1 data/*.json 2>/dev/null | grep -v "metrics.json" | grep -v "$D.json" | sort | tail -1 || true)
+          echo "prev=$PREV" >> "$GITHUB_OUTPUT"
+
+      - name: Metrics
+        run: python3 metrics.py --snapshot "data/${{ steps.cap.outputs.date }}.json" --series data/metrics.json
+
+      - name: Diff against previous
+        if: steps.cap.outputs.prev != ''
+        run: |
+          set -euo pipefail
+          python3 diff.py --old "${{ steps.cap.outputs.prev }}" \
+                          --new "data/${{ steps.cap.outputs.date }}.json" \
+                          --out "reports/${{ steps.cap.outputs.date }}.md" \
+                          --json-out "reports/${{ steps.cap.outputs.date }}.json"
+
+      - name: Surface CRITICAL / HIGH in the run summary
+        if: steps.cap.outputs.prev != ''
+        run: |
+          F="reports/${{ steps.cap.outputs.date }}.json"
+          python3 - "$F" >> "$GITHUB_STEP_SUMMARY" <<'PY'
+          import json, sys
+          try: evs = json.load(open(sys.argv[1]))
+          except Exception: sys.exit(0)
+          hot = [e for e in evs if e["sev"] in ("CRITICAL", "HIGH")]
+          print(f"### {len(hot)} CRITICAL/HIGH event(s) — {len(evs)} total\n")
+          for e in hot[:50]:
+              print(f"- **{e['sev']}** `{e['model']}` — {e['kind']}: {e['detail']}")
+          if not hot: print("_Nothing material changed today._")
+          PY
+
+      - name: Commit the record
+        run: |
+          set -euo pipefail
+          git config user.name  "openwatch-bot"
+          git config user.email "openwatch-bot@users.noreply.github.com"
+          git add data reports
+          git diff --cached --quiet && { echo "nothing to commit"; exit 0; }
+          git commit -m "snapshot ${{ steps.cap.outputs.date }}"
+          git push
