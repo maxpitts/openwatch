@@ -1,0 +1,14 @@
+[
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V10-GGUF",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V11-GGUF",
+  "detail": "new in ranked set (downloads 1,061,057)"
+ }
+]
