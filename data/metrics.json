@@ -82,5 +82,26 @@
    "tensorrt": 2,
    "tflite": 10
   }
+ },
+ {
+  "date": "2026-09-01",
+  "captured_at": "2026-09-01T06:41:34+00:00",
+  "n": 5000,
+  "pct_permissive": 66.18,
+  "pct_license_undeclared": 15.14,
+  "pct_gated": 3.06,
+  "gated_coverage": 100.0,
+  "pct_hardware_plural": 23.16,
+  "pct_cuda_native": 1.02,
+  "artifact_counts": {
+   "coreml": 18,
+   "gguf": 821,
+   "nvfp4": 50,
+   "onnx": 325,
+   "openvino": 75,
+   "rknn": 1,
+   "tensorrt": 2,
+   "tflite": 10
+  }
  }
 ]
