@@ -1,0 +1,74 @@
+[
+ {
+  "sev": "CRITICAL",
+  "kind": "license_narrowed",
+  "model": "Serveurperso/OmniVoice-GGUF",
+  "detail": "apache-2.0 -> cc-by-nc-4.0"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "caidas/swin2SR-classical-sr-x2-64",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "facebook/wav2vec2-large-robust-ft-swbd-300h",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "google-t5/t5-11b",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "openmmlab/upernet-swin-large",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "timm/convnextv2_nano.fcmae_ft_in22k_in1k",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "license_changed",
+  "model": "ReliquaryForge/qwen3-4b-base-dapo-v4",
+  "detail": "none -> apache-2.0"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "Helsinki-NLP/opus-mt-bg-en",
+  "detail": "new in ranked set (downloads 26,196)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "google-bert/bert-large-cased-whole-word-masking-finetuned-squad",
+  "detail": "new in ranked set (downloads 26,547)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "google/bert_uncased_L-4_H-256_A-4",
+  "detail": "new in ranked set (downloads 26,687)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "ku-nlp/deberta-v2-tiny-japanese-char-wwm",
+  "detail": "new in ranked set (downloads 26,414)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "timm/efficientnetv2_rw_s.ra2_in1k",
+  "detail": "new in ranked set (downloads 27,208)"
+ }
+]
