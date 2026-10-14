@@ -1,0 +1,602 @@
+[
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "AlfonsoM/Rocinante-12B-v1.1-GPTQ",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "AnnaZhang/lwdetr_small_60e_coco",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "AtomicChat/Ornith-1.5-35B-A3B-GGUF",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "BAAI/bge-base-zh",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "BrainAlign/gpt2-babylm-7",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "BrainAlign/gpt2-babylm-9",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "Comfy-Org/Qwen-Image-DiffSynth-ControlNets",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "Esobold/EsoTest_GGUFs",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "Helsinki-NLP/opus-mt-bg-en",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "MrFuzzihead/Qwen3.8-35B-A3B-Distill-APEX-GGUF",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "NovaSearch/jasper_en_vision_language_v1",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "OpenMed/OpenMed-ZeroShot-NER-Disease-Base-220M",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "OpenMed/OpenMed-ZeroShot-NER-Genome-Base-220M",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "Pilcothink/Qwen3.8-27B-MixedInt4-AutoRound",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "Salesforce/codet5p-110m-embedding",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "SicariusSicariiStuff/Impish_LLAMA_4B_GGUF",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "XLabs-AI/flux-ip-adapter",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "abenzerps/Nex-N2.5-mini-GGUF",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "ai21labs/AI21-Jamba2-3B",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "black-forest-labs/FLUX.2-klein-9b-kv",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "cuhkaih/rhofold",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "cunba-ai/istation",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "facebook/mms-lid-126",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "farbodtavakkoli/OTel-LLM-27B-IT",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "google/gemma-4-12B-it-assistant",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "hotchpotch/bekko-embedding-v1-a25m",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "lightonai/LightOnOCR-1B-1025",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "meta-llama/Llama-2-13b-hf",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "microsoft/Phi-mini-MoE-instruct",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "microsoft/skala-1.1",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "mlx-community/all-MiniLM-L6-v2-4bit",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "monadical-labs/minecraft-skin-generator-sdxl",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "mradermacher/Qwen3.8-9B-Distill-uncensored-heretic-GGUF",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "nvidia/Cosmos-Transfer2.5-2B",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "pico-lm/pico-decoder-medium",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "pico-lm/pico-decoder-small",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "pico-lm/pico-decoder-tiny",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "ponpoke/flux2-klein-9b-uncensored-text-encoder",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "sbintuitions/sarashina2.2-0.5b-instruct-v0.1",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "shigureui/Qwen3-VL-Embedding-2B-FP8",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "tencent/Hunyuan-7B-Instruct",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "timm/ViT-B-32-SigLIP2-256",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "trl-internal-testing/tiny-Idefics3ForConditionalGeneration",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "trl-internal-testing/tiny-Lfm2VlForConditionalGeneration-2.5",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "typhoon-ai/typhoon-ocr-3b",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "unsloth/gemma-4-E4B-it-NVFP4",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "upstage/SOLAR-0-70b-16bit",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "vidore/colpali-v1.3",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "left_set",
+  "model": "westlake-repl/Evolla-10B-hf",
+  "detail": "no longer returned in the ranked set (fell in rank, or removed)"
+ },
+ {
+  "sev": "MEDIUM",
+  "kind": "license_changed",
+  "model": "bartowski/Qwen3.8-27B-GGUF",
+  "detail": "none -> apache-2.0"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-v2-PQ2_0-MTP-GGUF",
+  "detail": "new in ranked set (downloads 27,186)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "DeepBeepMeep/HunyuanVideo1.5",
+  "detail": "new in ranked set (downloads 27,470)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "Helsinki-NLP/opus-mt-en-az",
+  "detail": "new in ranked set (downloads 31,001)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "IndexTeam/Index-Translate-9B-GGUF",
+  "detail": "new in ranked set (downloads 27,626)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "InstaDeepAI/agro-nucleotide-transformer-1b",
+  "detail": "new in ranked set (downloads 30,109)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
+  "detail": "new in ranked set (downloads 27,140)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "Kijai/WanVideo_comfy_GGUF",
+  "detail": "new in ranked set (downloads 27,745)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "LiquidAI/LFM2.5-VL-3B",
+  "detail": "new in ranked set (downloads 27,668)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "Marqo/marqo-fashionCLIP",
+  "detail": "new in ranked set (downloads 27,967)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "PowCal/Mathstral-7B-v0.1-4bit",
+  "detail": "new in ranked set (downloads 36,979)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "PowCal/Qwen2.5-Math-7B-4bit",
+  "detail": "new in ranked set (downloads 39,434)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "QuantStack/Wan2.2-S2V-14B-GGUF",
+  "detail": "new in ranked set (downloads 29,601)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+  "detail": "new in ranked set (downloads 33,369)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "Qwen/Qwen3-VL-32B-Instruct-GGUF",
+  "detail": "new in ranked set (downloads 34,324)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "RedHatAI/Qwen3-30B-A3B-Instruct-2507-quantized.w4a16",
+  "detail": "new in ranked set (downloads 27,577)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "RunDiffusion/Juggernaut-X-v10",
+  "detail": "new in ranked set (downloads 28,021)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "Wan-AI/Wan2.1-VACE-1.3B",
+  "detail": "new in ranked set (downloads 32,870)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "XHToken/Spark-X2.5-4B",
+  "detail": "new in ranked set (downloads 42,078)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "abhishek085/spark-s1-4b-v6-GGUF",
+  "detail": "new in ranked set (downloads 35,058)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "agentionai/Qwen3.8-Flash-Next-AP-GGUF",
+  "detail": "new in ranked set (downloads 28,572)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "allenai/Molmo-7B-D-0924",
+  "detail": "new in ranked set (downloads 27,852)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "audio-cpp/Index-Echo-S2TT-GGUF",
+  "detail": "new in ranked set (downloads 27,804)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "autotrust/JEV-Gemma4-26B-A4B",
+  "detail": "new in ranked set (downloads 27,968)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "bartowski/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF",
+  "detail": "new in ranked set (downloads 27,296)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "biohub/ESMC-600M-hf",
+  "detail": "new in ranked set (downloads 29,163)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "bloomer010/Ling-3.0-flash-GGUF",
+  "detail": "new in ranked set (downloads 28,476)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "braindecode/eegpt-pretrained",
+  "detail": "new in ranked set (downloads 29,901)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "cjvt/GaMS3-12B-Instruct",
+  "detail": "new in ranked set (downloads 36,296)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "coolthor/Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC",
+  "detail": "new in ranked set (downloads 27,965)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "defog/sqlcoder-7b-2",
+  "detail": "new in ranked set (downloads 28,573)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "echarlaix/distilbert-base-uncased-finetuned-sst-2-english-openvino",
+  "detail": "new in ranked set (downloads 27,166)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "ggml-org/embeddinggemma-2-GGUF",
+  "detail": "new in ranked set (downloads 31,714)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "jcbtc/Qwen3.8-Flash-CIRU-STRIX-Orca",
+  "detail": "new in ranked set (downloads 35,212)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "madebyollin/texture-fix-vae-for-qwen-image-2.1",
+  "detail": "new in ranked set (downloads 28,063)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "microsoft/bitnet-b1.58-2B-4T-gguf",
+  "detail": "new in ranked set (downloads 27,315)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "mradermacher/Qwen3.8-27B-Heretic-JP-Roleplay-NSFW-DanbooruTags-i1-GGUF",
+  "detail": "new in ranked set (downloads 36,782)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "mradermacher/translategemma-12b-it-GGUF",
+  "detail": "new in ranked set (downloads 28,682)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "shreyanshu09/gm3-4b",
+  "detail": "new in ranked set (downloads 28,260)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "tanjina284/puma_model",
+  "detail": "new in ranked set (downloads 27,164)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "tencent/Hy-MT2-30B-A3B-GGUF",
+  "detail": "new in ranked set (downloads 28,414)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "theforecastingcompany/t0-alpha",
+  "detail": "new in ranked set (downloads 27,668)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "timm/eva_large_patch14_196.in22k_ft_in22k_in1k",
+  "detail": "new in ranked set (downloads 27,832)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "timteh673/Qwen3.5-122B-A10B-Opus-Reasoning-GGUF",
+  "detail": "new in ranked set (downloads 31,967)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "trl-internal-testing/tiny-GPT2LMHeadModel",
+  "detail": "new in ranked set (downloads 28,422)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "unsloth/LTX-2-GGUF",
+  "detail": "new in ranked set (downloads 28,107)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "unsloth/Qwen-Image-2.1-Turbo-FP8",
+  "detail": "new in ranked set (downloads 27,841)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "unsloth/llava-1.5-7b-hf-bnb-4bit",
+  "detail": "new in ranked set (downloads 29,740)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "vikp/texify",
+  "detail": "new in ranked set (downloads 27,464)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "entered_set",
+  "model": "zzxslp/RadBERT-RoBERTa-4m",
+  "detail": "new in ranked set (downloads 45,288)"
+ },
+ {
+  "sev": "LOW",
+  "kind": "ungated",
+  "model": "k-chirkunov/gemma4-e4b-claims-comparison",
+  "detail": "manual -> open"
+ }
+]
